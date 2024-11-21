@@ -1,0 +1,3 @@
+[submodule "planificador_eventos_backend"]
+	path = planificador_eventos_backend
+	url = https://github.com/aaplv2/planificador_eventos_backend
