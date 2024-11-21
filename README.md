@@ -15,6 +15,21 @@ Los usuarios pueden:
 - Revisar en la página principal el calendario, el carrusel y la sección de próximo evento para entrar a estos enlaces.
 - Registarse a un evento y recibir un código que identifique su registro.
 
+## Instalación
+
+1. Clonar repositorio:
+```bash
+  git clone git@github.com:aaplv2/planificador_eventos.git --recursive
+```
+2. Instalar:
+```bash
+  cd planificador_eventos 
+```
+3. Verificación de submodulos:
+```bash
+ git submodule update --init
+```
+
 ## Tecnologías
 
 **Client:** React, TailwindCSS, Tabler, Google, Yup, Zustand, Shadcn
@@ -39,19 +54,6 @@ Los usuarios pueden:
 - Dayjs para gestionar fechas.
 - Base de datos Mongoose.
 - Multer para guardar archivo. 
-
-## Shadcn
-
-- AlertDialog
-- Dialog
-- Table
-- Button
-- Calendar
-- Carousel
-- Sheet
-- Form
-- Input
-- Label
 
 ## Dominios
 
