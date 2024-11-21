@@ -29,6 +29,7 @@ Los usuarios pueden:
 ```bash
  git submodule update --init
 ```
+4. Hacer copia de .env.example y eliminar ".example"
 
 ## Tecnologías
 
